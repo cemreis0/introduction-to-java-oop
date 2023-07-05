@@ -3,7 +3,6 @@ import java.util.*;
 
 public class NumericalData {
     public static void main(String[] args) {
-        Ch3SelectWinner();
     }
     public static void Ch3Circle() {
         final double PI = 3.14159;
