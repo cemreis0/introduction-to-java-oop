@@ -205,7 +205,7 @@ public class Ch3DevEx {
         1 Small - $0.60
         Your total cost is: $ 291.20
         */
-        
+
         /*
         Repeat Exercise 29, but this time, accept the date when the order is placed
         and display the expected date of arrival. The expected date of arrival is two
@@ -278,9 +278,6 @@ public class Ch3DevEx {
         // compute price and total
         price = bagsAtFirst * COFFEE_BAG_PRICE;
         total = price + (large * LARGE_BOX_PRICE) + (medium * MEDIUM_BOX_PRICE) + (small * SMALL_BOX_PRICE);
-
-        // date computations
-
 
         // output
         System.out.print(
