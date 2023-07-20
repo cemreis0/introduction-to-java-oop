@@ -1,3 +1,5 @@
+import Ch4.BicycleRegistration.BicycleRegistration;
+
 public class DefiningYourOwnClasses {
     public static void main(String[] args) {
         BicycleRegistration.register();

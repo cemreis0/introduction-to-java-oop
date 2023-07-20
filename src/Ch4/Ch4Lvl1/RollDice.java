@@ -1,4 +1,10 @@
-package Ch4.RollDice;
+/*
+In the RollDice program, we created three Die objects and rolled them once.
+Rewrite the program so you will create only one Die object and roll it three
+times.
+*/
+
+package Ch4.Ch4Lvl1;
 
 import java.util.*;
 
@@ -9,11 +15,15 @@ public class RollDice {
         die = new Die();
 
         die.roll();
+        System.out.println("The result is: " + die.getNumber());
 
+        die.roll();
+        System.out.println("The result is: " + die.getNumber());
+
+        die.roll();
         System.out.println("The result is: " + die.getNumber());
     }
 }
-
 class Die {
     // data members
     private static final int MAX_NUMBER = 6; // the largest number on a die

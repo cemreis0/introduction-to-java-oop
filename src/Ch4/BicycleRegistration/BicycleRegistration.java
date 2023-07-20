@@ -1,3 +1,5 @@
+package Ch4.BicycleRegistration;
+
 public class BicycleRegistration {
     public static void main(String[] args) {
         register();
