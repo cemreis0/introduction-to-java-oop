@@ -2,6 +2,8 @@
 Chapter 4 Sample Development: Loan Calculation
 */
 
+package Ch4.Ch4LoanCalculator;
+
 import java.text.*;
 import java.util.*;
 
