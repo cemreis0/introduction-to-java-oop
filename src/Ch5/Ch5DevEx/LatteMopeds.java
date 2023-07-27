@@ -25,7 +25,7 @@
  */
 
 
-package Ch5;
+package Ch5.Ch5DevEx;
 
 import java.util.Scanner;
 
