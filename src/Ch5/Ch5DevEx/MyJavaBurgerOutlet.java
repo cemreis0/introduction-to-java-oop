@@ -41,9 +41,9 @@ public class MyJavaBurgerOutlet {
         displayOrderDetails(order);
     }
     public static void displayMenu() {
-        System.out.println("----------------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------------");
         System.out.println("| Item No. |     Entree     |   Side Dish    |       Drink      |");
-        System.out.println("-------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------------");
         System.out.println("|    1     | Tofu Burger    | Rice Cracker   |    Cafe Mocha    |");
         System.out.println("|          | Price: $3.49   | Price: $0.79   | Price: $1.99     |");
         System.out.println("-----------------------------------------------------------------");
@@ -98,7 +98,6 @@ public class MyJavaBurgerOutlet {
 
 class Order {
     // data members
-    private int menu; // 1 - entree menu, 2 - side dish menu, 3 - drink menu
     private int entree, sideDish, drink; // 1 - first item in the menu, 2 - second etc.
     private double entreeCost, sideDishCost, drinkCost;
     private String entreeName, sideDishName, drinkName; // names for the items
