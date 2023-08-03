@@ -92,6 +92,8 @@ public class TheWhileStatement {
         /*
          Write while statement to read in real numbers and stop when a negative
          number is entered. Is this a count-controlled or sentinel-controlled loop?
+
+         -sentinel controlled
         */
 
         double i = 1;
