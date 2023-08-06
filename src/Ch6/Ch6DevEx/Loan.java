@@ -1,3 +1,13 @@
+/*
+Write a program that accepts a loan amount, annual interest rate, and
+loan period (in number of years) and displays a table with five columns:
+payment number, the interest and principal paid for that month, the
+remaining balance after the payment, and the total interest paid to date.
+Note: The last payment is generally different from the monthly payment,
+and your program should print out the correct amount for the last payment.
+Use the Format class to align the output values neatly.
+*/
+
 package Ch6.Ch6DevEx;
 
 import java.util.Scanner;
