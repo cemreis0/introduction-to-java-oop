@@ -58,7 +58,7 @@ public class TheWhileStatement {
         System.out.println(gcd);
     }
 
-    private static void gcdEuclidean(int m, int n) {
+    public static int gcdEuclidean(int m, int n) {
         int max = Math.max(m, n),
         min = Math.min(m, n),
         remainder = max % min;
@@ -69,7 +69,7 @@ public class TheWhileStatement {
             remainder = max % min;
         }
 
-        System.out.println(min);
+        return min;
     }
 
     private static void qc1() {

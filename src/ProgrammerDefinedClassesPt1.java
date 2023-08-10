@@ -1,6 +1,6 @@
 import Ch4.BicycleRegistration.BicycleRegistration;
 
-public class DefiningYourOwnClasses {
+public class ProgrammerDefinedClassesPt1 {
     public static void main(String[] args) {
         BicycleRegistration.register();
         double x = 20.00;
