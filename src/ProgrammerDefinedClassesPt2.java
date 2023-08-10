@@ -1,3 +1,5 @@
+import Ch7.Ch7Lvl1.myutil.*;
+
 public class ProgrammerDefinedClassesPt2 {
     public static void main(String[] args) {
         Fraction f1, f2, f3;
