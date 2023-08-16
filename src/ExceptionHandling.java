@@ -1,19 +1,32 @@
+import java.awt.*;
 import java.util.*;
 
 public class ExceptionHandling {
     public static void main(String[] args) {
-        int entrantAge;
+        int entrantAge, entrantAge2;
 
         try {
             AgeInputVer5 input = new AgeInputVer5(25, 50);
 
-            entrantAge = input.getAge("Your Age:");
+            entrantAge = input.getAge("Your Age: ");
             System.out.println("Input Okay. Age = " + entrantAge);
 
         } catch (AgeInputException e) {
             System.out.println("Error: " + e.value() + " is entered. It is " +
                     "outside the valid range of [" + e.lowerBound() +
                     ", " + e.upperBound() + "]");
+        }
+
+        try {
+            AgeInputVer4 input2 = new AgeInputVer4(25, 50);
+
+            entrantAge2 = input2.getAge("Your age: ");
+            System.out.println("Input Okay. Age = " + entrantAge2);
+
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
     }
 }
@@ -125,6 +138,10 @@ public class ExceptionHandling {
         }
 
         public AgeInputVer4(int lowerBound, int upperBound) throws IllegalArgumentException {
+            if (lowerBound < 0 || upperBound < 0) {
+                throw new IllegalArgumentException("Bound (" + lowerBound + ") cannot be negative.");
+            }
+
             if (lowerBound > upperBound) {
                 throw new IllegalArgumentException("Lower bound (" + lowerBound + ") was larger than upper bound (" + upperBound + ")");
             } else {
@@ -150,8 +167,8 @@ public class ExceptionHandling {
                 try {
                     age = scanner.nextInt();
 
-                    if (age < lowerBound || age > upperBound) {
-                        throw new Exception("Input out of bound");
+                    if (age < 0) {
+                        throw new IllegalArgumentException("Illegal value: negative age is invalid.");
                     }
 
                     return age;
