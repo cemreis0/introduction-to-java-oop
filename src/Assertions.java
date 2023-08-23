@@ -18,7 +18,7 @@ class BankAccount {
     public void deposit(double amount) {
         double oldBalance = balance;
 
-        balance -= amount;
+        balance += amount;
 
         assert balance > oldBalance;
     }
