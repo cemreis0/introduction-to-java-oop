@@ -35,7 +35,6 @@ public class SentenceReverser {
             sentence = getInput();
 
             if (sentence.equals("")) {
-                scanner.nextLine();
                 break;
             }
 
