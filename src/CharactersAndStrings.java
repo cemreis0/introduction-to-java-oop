@@ -69,7 +69,7 @@ public class CharactersAndStrings {
                 }
 
                 // another word is found, so increment the counter
-                    wordCount++;
+                wordCount++;
             }
         }
 
