@@ -108,7 +108,7 @@ class StandardDeviationCalculator {
         }
 
         return  sum;
-    };
+    }
 
     private double getAverage() {
         if (numberOfRealNumbers == 0) {
