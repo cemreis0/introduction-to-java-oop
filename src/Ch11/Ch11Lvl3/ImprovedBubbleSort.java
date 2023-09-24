@@ -18,7 +18,7 @@ program to verify the correct implementation of the modified bubble sort
 algorithm.
 */
 
-package Ch11.Ch11Lvl2;
+package Ch11.Ch11Lvl3;
 
 import java.util.Arrays;
 
