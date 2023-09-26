@@ -74,9 +74,5 @@ public class FileInputAndOutput {
         // label and the dialog title. For example, this code will produce a JFileChooser dialog
         // with the text Compile as its title and label for the okay button:
         fileChooser1.showDialog(null, "Compile");
-
-        // We can use a file filter to remove unwanted files from the list.
-        boolean accept(File file);
-        String getDescription;
     }
 }
