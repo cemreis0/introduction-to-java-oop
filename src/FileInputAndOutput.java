@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
+import java.io.PrintStream;
 
 public class FileInputAndOutput {
     public static void main(String[] args) {
