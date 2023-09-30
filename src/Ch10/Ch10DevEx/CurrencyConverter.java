@@ -13,7 +13,7 @@
  * the second argument is the rate. For example, if the exchange rate for yen is
  * 140 yen to $1, then we write
  * converter.setRate( "yen", 140.0 );
- * Use an array to keep track of exchange rates.
+ * Use an array to keep track of exchange rate.txt.
  */
 
 
@@ -78,7 +78,7 @@ public class CurrencyConverter {
 
 class Converter {
     // data members
-    private final int NUMBER_OF_RATES = 7; // the number of rates to keep track of
+    private final int NUMBER_OF_RATES = 7; // the number of rate.txt to keep track of
     Map<String, double[]> rates;
 
     // constructors
@@ -121,7 +121,7 @@ class Converter {
         }
     }
 
-    // get all rates of a currency
+    // get all rate.txt of a currency
     public double[] getRates(String currency) throws IllegalArgumentException {
         if (!rates.containsKey(currency)) {
             throw new IllegalArgumentException("Currency does not exist.");
