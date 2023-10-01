@@ -1,0 +1,17 @@
+#Entree
+Tofu Burger $3.99
+Chili Burger $2.99
+Chef Salad $6.99
+
+#Drink
+Oolong Tea $0.79
+Latte $3.29
+House Wine $4.99
+Chai Latte $2.50
+
+#Side
+Freedom Fries $0.99
+
+#Appetizer
+Onion Bloom $4.05
+Calamari $3.50

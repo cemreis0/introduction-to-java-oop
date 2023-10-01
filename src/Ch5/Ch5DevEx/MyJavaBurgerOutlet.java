@@ -4,7 +4,7 @@ is now venturing into the fast-food business. The first thing the management
 decides is to eliminate the drive-through intercom. MyJava Lo-Fat Burgers is the
 only fast-food establishment in town that provides a computer screen and mouse
 for its drive-through customers. You are hired as a freelance computer consultant.
-Write a program in Java that lists items for three menu categories: entree, side dish, and drink.
+Write a program in Java that lists items for three menu.txt categories: entree, side dish, and drink.
 The following table lists the items available for each entry and their prices.
 Choose appropriate methods for input and output.
 
@@ -62,7 +62,7 @@ public class MyJavaBurgerOutlet {
     }
 
     public static Order getOrder() {
-        int entree, sideDish, drink; // menu items given by the user
+        int entree, sideDish, drink; // menu.txt items given by the user
 
         Order order;
 

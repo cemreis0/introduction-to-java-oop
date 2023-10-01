@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ArrayBasics {
     public static void main(String[] args) {
-        double[] rainfall = new double[12]; // 12 is the size, the number of values in the array
+        double[] rainfall = new double[12]; // 12 is the size, namely the number of values in the array
         String[] monthName = new String[12];
         double difference, annualAverage, sum;
         Scanner scanner = new Scanner(System.in);

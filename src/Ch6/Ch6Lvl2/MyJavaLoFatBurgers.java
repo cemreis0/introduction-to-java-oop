@@ -1,8 +1,8 @@
 /*
 Extend the program in Exercise 15 so that customers can order more than
-one item from each menu category. For example, the customer can buy two
+one item from each menu.txt category. For example, the customer can buy two
 orders of Tofu Burgers and three orders of Buffalo Wings from the Entree
-menu category.
+menu.txt category.
 */
 
 package Ch6.Ch6Lvl2;
@@ -51,7 +51,7 @@ public class MyJavaLoFatBurgers {
     }
 
     public static double getOrder() {
-        int entree, sideDish, drink; // menu items given by the user
+        int entree, sideDish, drink; // menu.txt items given by the user
         int entreeQuantity, sideDishQuantity, drinkQuantity; // number of items ordered
         double total = 0; // total cost
 

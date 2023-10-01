@@ -1,7 +1,7 @@
 /**
  * Extend the MyJava Lo-Fat Burgers drive-through ordering system of
  * Exercise 24 on page 302 so the program can output sales figures. For each
- * item on the menu, the program keeps track of the sales. At closing time,
+ * item on the menu.txt, the program keeps track of the sales. At closing time,
  * the program will output the sales figure in a format similar to the
  * following:
  *

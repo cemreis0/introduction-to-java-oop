@@ -2,13 +2,13 @@ package Ch5.Ch5DevEx;
 
 public class Order {
     // data members
-    private int entree, sideDish, drink; // 1 - first item in the menu, 2 - second etc.
+    private int entree, sideDish, drink; // 1 - first item in the menu.txt, 2 - second etc.
     private double entreeCost, sideDishCost, drinkCost;
     private String entreeName, sideDishName, drinkName; // names for the items
 
     // constructor
     public Order(int givenEntree, int givenSideDish, int givenDrink) {
-        entree = givenEntree; // 0 for no order from a menu
+        entree = givenEntree; // 0 for no order from a menu.txt
         sideDish = givenSideDish;
         drink = givenDrink;
         setNames();
