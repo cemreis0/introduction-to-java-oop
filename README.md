@@ -15,3 +15,4 @@ The `src` directory contains concept snippets in its files, while the folders ar
 - [Chapter 10 - Arrays and Collections](https://github.com/cemreis0/introduction-to-java-oop/tree/master/src/Ch10)
 - [Chapter 11 - Sorting and Searching](https://github.com/cemreis0/introduction-to-java-oop/tree/master/src/Ch11)
 - [Chapter 12 - File Input and Output](https://github.com/cemreis0/introduction-to-java-oop/tree/master/src/Ch12)
+- [Chapter 13 - Inheritance and Polymorphism](https://github.com/cemreis0/introduction-to-java-oop/tree/master/src/Ch13)
