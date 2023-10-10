@@ -15,7 +15,7 @@ public class TheGregorianCalendarClass {
         GregorianCalendar calendar = new GregorianCalendar();
 
         System.out.println(calendar.getTime());
-        System.out.println("");
+        System.out.println();
         System.out.println("YEAR           " + calendar.get(Calendar.YEAR));
         System.out.println("MONTH          " + calendar.get(Calendar.MONTH));
         System.out.println("DATE:          " + calendar.get(Calendar.DATE));
