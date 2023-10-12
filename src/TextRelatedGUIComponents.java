@@ -182,8 +182,7 @@ class Ch14TextFrame3 extends JFrame implements ActionListener {
     private static final int FRAME_X_ORIGIN = 150;
     private static final int FRAME_Y_ORIGIN = 250;
     private static final String EMPTY_STRING = "";
-    private static final String NEWLINE
-            = System.getProperty("line.separator");
+    private static final String NEWLINE = System.getProperty("line.separator");
     private JButton clearButton;
     private JButton addButton;
     private JTextField inputLine;
@@ -200,7 +199,7 @@ class Ch14TextFrame3 extends JFrame implements ActionListener {
 
         // set the layout manager
         contentPane = getContentPane();
-        contentPane.setLayout(new FlowLayout ());
+        contentPane.setLayout(new FlowLayout());
 
         // set the text area
         textArea = new JTextArea();
